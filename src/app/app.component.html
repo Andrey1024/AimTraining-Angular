@@ -1,3 +1,6 @@
-<h1>
-  {{title}}
-</h1>
+<md-toolbar color="primary">
+    <div class="title"><a md-button [routerLink]="['/home']"><div style="font-size: large" md-ripple >Aim Training</div></a></div>
+</md-toolbar>
+<md-card class="container">
+    <router-outlet></router-outlet>
+</md-card>

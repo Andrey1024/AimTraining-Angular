@@ -1,0 +1,10 @@
+.title {
+    margin: 0 auto;
+    min-width: 60%;
+}
+
+.container {
+    max-width: 60%;
+    margin: 20px auto;
+    text-align: center;
+}

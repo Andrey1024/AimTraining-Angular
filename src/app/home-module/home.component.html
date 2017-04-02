@@ -1,0 +1,6 @@
+<md-card *ngFor="let item of trainingList" class="container">
+    <md-card-title>
+        <a md-button [routerLink]="['/', item.link]">{{item.name}}</a>
+    </md-card-title>
+    
+</md-card>
